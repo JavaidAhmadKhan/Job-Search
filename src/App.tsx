@@ -25,7 +25,7 @@ const App = () => {
               <h1 className="font-bold text-center text-black/60">{item.name}</h1>
               <h2 className="font-semibold text-center text-black/60">{item.jobprofile}</h2>
               <p className="text-medium text-center text-black/60">{item.salary}</p>
-              <p className="text-sm text-center text-black/60">{item.description}</p>
+              <p className="text-sm text-center text-black/60">{item.description.slice(0, 372)}</p>
             </div>
           ))}
         </div>
